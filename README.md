@@ -2,8 +2,6 @@
 
 **Contributor1: Pratik Kumar**
 
-This project is for the **AutoMob-Mechanic** website, an online platform for learning about the company and accessing services. Key contributions:
-
 1. **Home Page (home.html)**:
    - Displayed company info and added an **Explore More** button that redirects to **services.html** using JavaScript.
 
