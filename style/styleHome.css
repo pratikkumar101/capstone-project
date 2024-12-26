@@ -1,0 +1,158 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Header */
+.header {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 15px 20px;
+    text-align: right;
+}
+
+.header span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    float: left;
+    color: #00bcd4;
+}
+
+.header a {
+    color: #b3b3b3;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.header a:hover {
+    color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url("https://source.unsplash.com/1600x900/?mechanic,engine") 
+                center/cover no-repeat;
+    color: #ffffff;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-explore {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.btn-explore:hover {
+    background-color: #008ba3;
+    color: #ffffff;
+}
+
+/* Futuristic Engine Image */
+.engine-img {
+    background-color: #1f1f1f;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.engine-img h2 {
+    color: #00bcd4;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.engine-img p {
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    margin-bottom: 25px;
+}
+
+.engine-img img {
+    width: 80%; /* Image takes 80% of the container */
+    max-width: 1000px; /* Ensures it doesn’t get too large on big screens */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 188, 212, 0.5);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.engine-img img:hover {
+    transform: scale(1.07); /* Smooth scaling on hover */
+    box-shadow: 0 10px 20px rgba(0, 188, 212, 0.7);
+}
+
+/* How It Works Section */
+.how-it-works {
+    background-color: #121212;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.how-it-works h2 {
+    color: #00bcd4;
+    margin-bottom: 20px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.step-card {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 188, 212, 0.2);
+}
+
+.step-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 188, 212, 0.4);
+}
+
+.step-card h3 {
+    color: #00bcd4;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+/* footer {
+    background-color: #1f1f1f;
+    color: #b3b3b3;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+} */

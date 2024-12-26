@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Automob-Mechanic | Home</title>
     <link href="../style/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/styleHome.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
@@ -21,10 +22,44 @@
     </header>
 
     <main class="container">
-        <h1>Welcome to Automob-Mechanic</h1>
-        <p>We provide top-notch automotive services for all your needs.</p>
-        <button class="btn" onclick="exploreMore()">Explore More</button>
-        <div class="loader" id="loader"></div>
+        <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to AutoMob-Mechanic</h1>
+        <p>Your One-Stop Solution for Car Repair & Service</p>
+        <button class="btn btn-explore">Explore More</button>
+    </section>
+
+    <!-- Futuristic Engine Image -->
+    <section class="engine-img">
+        <div class="text-center mt-4">
+            <h2>Next-Generation Engine Repair</h2>
+            <p>Experience cutting-edge automotive technology.</p>
+            <img 
+                src="../assets/volkswagen-design-chief-bad-plastics-piano-black.jpg.png" 
+                alt="Futuristic Engine" 
+                class="img-fluid rounded shadow"
+            >
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <h2>How It Works?</h2>
+        <div class="steps">
+            <div class="step-card">
+                <h3>Choose the Service</h3>
+                <p>Select the perfect service for your car.</p>
+            </div>
+            <div class="step-card">
+                <h3>Book an Appointment</h3>
+                <p>Schedule your service at a convenient time.</p>
+            </div>
+            <div class="step-card">
+                <h3>Get Your Car Fixed</h3>
+                <p>We take care of everything while you relax.</p>
+            </div>
+        </div>
+    </section>
     </main>
     <div id="message"></div>
 
@@ -35,4 +70,6 @@
     <script src="../scripts/script.js"></script>
 </body>
 </html>
+
+
 
