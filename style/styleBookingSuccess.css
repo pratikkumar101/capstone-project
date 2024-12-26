@@ -44,7 +44,8 @@ body {
 
 /* Image styles */
 #img {
-    max-width: 100%;
+    /* max-width: 100%; */
+    width: 50vw;
     height: 100%;
     margin-bottom: 20px;
 }

@@ -1,33 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../style/style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/styleServices.css">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <div class="logo">AutoMob-Mechanic</div>
-            <nav id="navbarNav">
-
-            </nav>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
+      <div class="container">
+        <div class="logo">AutoMob-Mechanic</div>
+        <nav id="navbarNav"></nav>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
         </div>
+      </div>
     </header>
-    <main class="container">
-        <h1>Services</h1>
-        <div class="loader" id="loader"></div>
-        
-    <div id="message"></div>
+    <main class="container container-main">
+      <h1>Car Repair and Service</h1>
+      <p>
+        Our representatives are professionally trained and skilled with the
+        latest and futuristic techniques to provide the best quality service.
+      </p>
+      <p>
+        At AutoMob-Mechanic, we provide a high-class service to the customers
+        for their happy and memorable driving experience.
+      </p>
+
+      <div class="services">
+        <div class="service">
+          <h3>Preventive Maintenance</h3>
+          <img src="../assets/preventive.jpg" alt="Service Image" />
+          <p>Periodically check and keep your car running.</p>
+          <div class="offer">Offer: 20%</div>
+          <a href="#" class="more-details" onclick="navigateToDetails()"
+            >More Details</a
+          >
+        </div>
+        <div class="service">
+          <h3>Body Repair Service</h3>
+          <img src="../assets/body repair.jpg" alt="Service Image" />
+          <p>Full chassis body repair provided by the experts.</p>
+          <div class="offer">Offer: 10%</div>
+          <a href="#" class="more-details" onclick="nvigate2details()"
+            >More Details</a
+          >
+        </div>
+        <div class="service">
+          <h3>Car Care <br />Service</h3>
+          <img src="../assets/car care.jpg" alt="Service Image" />
+          <p>Get your car sparkling clean in just minutes.</p>
+          <div class="offer">Offer: 15%</div>
+          <a href="#" class="more-details" onclick="nav2Details()"
+            >More Details</a
+          >
+        </div>
+      </div>
+
+      <div class="offer-timer" id="offer-timer">**Offer ends in: 10m:00s</div>
+      <div class="loader" id="loader"></div>
+
+      <div id="message"></div>
     </main>
     <footer>
-        <p>&copy; 2025 Automob-Mechanic. All rights reserved.</p>
+      <p>&copy; 2025 Automob-Mechanic. All rights reserved.</p>
     </footer>
     <script src="../scripts/script.js"></script>
-</body>
+    <script src="../scripts/scriptServices.js"></script>
+  </body>
 </html>
